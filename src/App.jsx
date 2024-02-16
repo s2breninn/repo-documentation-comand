@@ -1,11 +1,10 @@
-import NavBar from "./components/template/NavBar"
+import Home from "./pages/Home"
 
 function App() {
 
   return (
     <>
-      <NavBar/>
-      <p className="text-center bg-red-600">oii</p>
+      <Home/>
     </>
   )
 }
